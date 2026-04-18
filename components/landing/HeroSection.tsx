@@ -22,13 +22,12 @@ export function HeroSection() {
               Built for property managers
             </p>
             <h1 className="text-balance text-4xl font-semibold tracking-tight text-neutral-950 sm:text-5xl lg:text-[3.25rem] lg:leading-[1.08]">
-              You missed that call. They rented somewhere else.
+              You&apos;re losing renters before you even reply.
             </h1>
             <p className="mt-6 max-w-xl text-pretty text-lg leading-relaxed text-neutral-600 sm:text-xl">
-              Most renter inquiries happen when your team is busy, off-hours, or
-              already in a showing. TenantFlo helps you reply instantly, capture
-              the lead, and move them toward a viewing before the opportunity
-              disappears.
+              Calls, texts, and inquiries come in when your team is busy. If you
+              don&apos;t respond instantly, they move on. TenantFlo replies,
+              captures, and organizes every renter interaction automatically.
             </p>
             <div className="mt-10 flex flex-col gap-3 sm:flex-row sm:items-center">
               <a
@@ -43,8 +42,7 @@ export function HeroSection() {
               </JoinWaitlistTrigger>
             </div>
             <p className="mt-8 text-sm text-neutral-500">
-              No new software to learn • Works with your existing leasing workflow
-              • Setup in minutes
+              Works with your phone • No new system to learn • Setup in minutes
             </p>
           </div>
 
@@ -81,7 +79,7 @@ export function HeroSection() {
               <div className="absolute right-0 top-[88px] w-[94%] rounded-2xl border border-neutral-200/80 bg-white p-5 shadow-[0_24px_60px_-12px_rgba(15,23,42,0.14)] transition duration-500 hover:-translate-y-0.5 sm:top-[100px]">
                 <div className="flex items-center gap-2 text-emerald-700">
                   <Sparkles className="h-4 w-4" aria-hidden />
-                  <p className="text-sm font-semibold">Auto reply sent in 8 seconds</p>
+                  <p className="text-sm font-semibold">Instant auto-reply sent</p>
                 </div>
                 <p className="mt-2 text-sm leading-relaxed text-neutral-600">
                   “Thanks for reaching out — we can help today. Reply YES to get
@@ -89,7 +87,7 @@ export function HeroSection() {
                 </p>
                 <div className="mt-3 flex items-center gap-2 text-xs text-neutral-500">
                   <span className="h-1.5 w-1.5 rounded-full bg-emerald-500 animate-pulse-line" />
-                  Delivered instantly
+                  SMS · Delivered in seconds
                 </div>
               </div>
 

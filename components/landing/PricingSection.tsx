@@ -22,8 +22,11 @@ export function PricingSection() {
         <h2 className="mt-3 max-w-2xl text-3xl font-semibold tracking-tight text-neutral-950 sm:text-4xl">
           Simple pricing for faster leasing follow-up
         </h2>
+        <p className="mt-4 max-w-2xl text-pretty text-base font-medium leading-relaxed text-neutral-700 sm:text-lg">
+          Recover just one renter, and this pays for itself.
+        </p>
 
-        <div className="mt-14 grid gap-6 lg:grid-cols-2">
+        <div className="mt-12 grid gap-6 lg:grid-cols-2">
           <article className="flex flex-col rounded-2xl border border-neutral-200 bg-white p-8 shadow-sm shadow-neutral-900/5 transition hover:shadow-md">
             <p className="text-sm font-semibold text-neutral-500">Free</p>
             <p className="mt-2 text-3xl font-semibold tracking-tight text-neutral-950">
@@ -48,7 +51,7 @@ export function PricingSection() {
             </div>
             <p className="text-sm font-semibold text-neutral-500">Pro</p>
             <p className="mt-2 text-3xl font-semibold tracking-tight text-neutral-950">
-              $49<span className="text-lg font-medium text-neutral-500">/month</span>
+              $24.99<span className="text-lg font-medium text-neutral-500">/month</span>
             </p>
             <ul className="mt-8 flex flex-1 flex-col gap-3">
               {proFeatures.map((f) => (

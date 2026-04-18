@@ -293,7 +293,7 @@ export function JoinWaitlistModal() {
               <div className="text-center">
                 <SectionLabel>Quick check</SectionLabel>
                 <h2 className="mt-2 text-balance text-xl font-semibold tracking-tight text-neutral-950 sm:text-2xl">
-                  Are missed calls costing you renters?
+                  Is slow renter communication costing you leases?
                 </h2>
                 <p className="mx-auto mt-2 max-w-md text-pretty text-sm text-neutral-600">
                   Five questions. One minute. Tap an answer, then continue.

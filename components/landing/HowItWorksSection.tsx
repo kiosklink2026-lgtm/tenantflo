@@ -5,7 +5,7 @@ const steps = [
   {
     step: "1",
     title: "A renter reaches out",
-    body: "Phone call, form submission, or listing inquiry.",
+    body: "Call, message, or inquiry comes in.",
     icon: Inbox,
   },
   {
@@ -37,7 +37,7 @@ export function HowItWorksSection() {
       <div className="mx-auto max-w-6xl px-4 sm:px-6 lg:px-8">
         <SectionLabel>How it works</SectionLabel>
         <h2 className="mt-3 max-w-2xl text-3xl font-semibold tracking-tight text-neutral-950 sm:text-4xl">
-          From missed call to booked viewing in minutes.
+          From inquiry to booked viewing without the delay.
         </h2>
 
         <div className="mt-14 grid gap-6 sm:grid-cols-2 lg:grid-cols-4">

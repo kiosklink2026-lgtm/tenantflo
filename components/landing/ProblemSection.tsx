@@ -4,17 +4,17 @@ import { SectionLabel } from "./SectionLabel";
 const cards = [
   {
     title: "Missed calls",
-    body: "High-intent renters call first. If nobody answers, they move to the next listing.",
+    body: "Renters call first. No answer—and they are already on the next listing.",
     icon: PhoneMissed,
   },
   {
     title: "Slow follow-up",
-    body: "A delayed reply often means the conversation never starts.",
+    body: "Every hour of silence is a window for someone else to win the conversation.",
     icon: Timer,
   },
   {
     title: "Invisible revenue loss",
-    body: "Every missed prospect can turn into more vacancy and more lost rent.",
+    body: "Missed messages add up to vacancy you never see on a spreadsheet.",
     icon: EyeOff,
   },
 ];
@@ -25,9 +25,9 @@ export function ProblemSection() {
       <div className="mx-auto max-w-6xl px-4 sm:px-6 lg:px-8">
         <SectionLabel>The problem</SectionLabel>
         <h2 className="mt-3 max-w-2xl text-3xl font-semibold tracking-tight text-neutral-950 sm:text-4xl">
-          Speed wins the renter.
+          The first reply wins. Not the best listing.
         </h2>
-        <p className="mt-5 max-w-2xl text-lg leading-relaxed text-neutral-600">
+        <p className="mt-5 max-w-2xl text-pretty text-lg leading-relaxed text-neutral-600">
           The best listing does not always win. The first reply usually does. When
           a renter inquiry is missed or delayed, the result is simple: less
           conversation, more vacancy, and lost rent that nobody measures clearly.

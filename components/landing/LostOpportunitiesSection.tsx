@@ -42,9 +42,9 @@ export function LostOpportunitiesSection() {
       <div className="relative mx-auto max-w-6xl px-4 sm:px-6 lg:px-8">
         <SectionLabel>Visibility</SectionLabel>
         <h2 className="mt-3 max-w-3xl text-3xl font-semibold tracking-tight text-neutral-950 sm:text-4xl">
-          See how many renters you may be losing.
+          Where you&apos;re losing renters — and don&apos;t see it.
         </h2>
-        <p className="mt-5 max-w-2xl text-lg leading-relaxed text-neutral-600">
+        <p className="mt-5 max-w-2xl text-pretty text-lg leading-relaxed text-neutral-600">
           Most teams know they are missing inquiries. Very few can see the real
           pattern. TenantFlo helps surface missed calls, slow replies, unanswered
           inquiries, and estimated rent at risk.

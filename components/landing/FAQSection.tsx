@@ -3,19 +3,23 @@ import { SectionLabel } from "./SectionLabel";
 const faqs = [
   {
     q: "Does this replace our CRM?",
-    a: "No. TenantFlo helps you respond faster and capture renter demand before it is lost.",
+    a: "No. TenantFlo is a communication layer: faster replies, capture, and visibility—not a full CRM replacement.",
   },
   {
     q: "Do we need to change how we work?",
-    a: "No. TenantFlo fits into your existing leasing workflow.",
+    a: "No. TenantFlo fits how your team already handles calls, texts, and inquiries.",
   },
   {
     q: "Is this only for phone calls?",
-    a: "No. It can support inquiries across calls, forms, and messages.",
+    a: "No. It supports renter outreach across calls, messages, forms, and listing inquiries.",
+  },
+  {
+    q: "Can tenant issues or complaints be logged too?",
+    a: "Yes—TenantFlo can capture and organize renter-reported issues so nothing gets missed. It is not a full maintenance management platform; it is focused on communication, triage, and follow-through.",
   },
   {
     q: "How fast can we get started?",
-    a: "The goal is fast setup with minimal friction.",
+    a: "The goal is fast setup with minimal friction—minutes, not a multi-week rollout.",
   },
   {
     q: "Is this for landlords too?",

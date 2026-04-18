@@ -12,7 +12,8 @@ export type QuizQuestion = {
 
 export const QUIZ_QUESTIONS: QuizQuestion[] = [
   {
-    prompt: "When a renter calls and you miss it, what usually happens?",
+    prompt:
+      "When you miss a renter outreach (call, text, or form), what usually happens?",
     options: [
       { label: "I call back immediately", score: 0 },
       { label: "I call back later", score: 2 },
@@ -39,7 +40,7 @@ export const QUIZ_QUESTIONS: QuizQuestion[] = [
     ],
   },
   {
-    prompt: "Do you know how many inquiries you missed last week?",
+    prompt: "Do you know how many renter inquiries went unanswered last week?",
     options: [
       { label: "Yes, exactly", score: 0 },
       { label: "Rough idea", score: 1 },
@@ -83,12 +84,12 @@ export function getResultCopy(band: RiskBand): {
     case "low":
       return {
         headline: "You're doing better than most.",
-        body: "Your team seems fairly responsive, but missed renter demand can still slip through when things get busy.",
+        body: "Your team seems fairly responsive, but slow replies or unanswered messages can still slip through when things get busy.",
       };
     case "medium":
       return {
         headline: "You may be losing more renters than you think.",
-        body: "Some of your answers suggest missed calls or delayed replies could be quietly hurting your leasing flow.",
+        body: "Some of your answers suggest missed outreach or delayed replies could be quietly hurting your leasing flow.",
       };
     case "high":
     default:

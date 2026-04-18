@@ -1,5 +1,6 @@
 import { AudienceSection } from "@/components/landing/AudienceSection";
 import { ContactSection } from "@/components/landing/ContactSection";
+import { EveryInteractionSection } from "@/components/landing/EveryInteractionSection";
 import { FAQSection } from "@/components/landing/FAQSection";
 import { FinalCTASection } from "@/components/landing/FinalCTASection";
 import { HeroSection } from "@/components/landing/HeroSection";
@@ -18,6 +19,7 @@ export default function Home() {
       <LandingHeader />
       <main>
         <HeroSection />
+        <EveryInteractionSection />
         <ProblemSection />
         <MoneyLossSection />
         <HowItWorksSection />

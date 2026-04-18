@@ -3,7 +3,7 @@ import { Building2, Layers, Users } from "lucide-react";
 const audiences = [
   {
     title: "Small property managers",
-    body: "Stay responsive without hiring more admin support.",
+    body: "Stay responsive without adding more admin work.",
     icon: Building2,
   },
   {
@@ -13,7 +13,7 @@ const audiences = [
   },
   {
     title: "Multi-unit operators",
-    body: "Get visibility across inquiries, response speed, and booking flow.",
+    body: "Get visibility across inquiries, response times, and booking flow.",
     icon: Layers,
   },
 ];
@@ -25,9 +25,9 @@ export function AudienceSection() {
         <h2 className="max-w-3xl text-3xl font-semibold tracking-tight text-neutral-950 sm:text-4xl">
           Built for busy property managers and leasing teams.
         </h2>
-        <p className="mt-5 max-w-2xl text-lg leading-relaxed text-neutral-600">
+        <p className="mt-5 max-w-2xl text-pretty text-lg leading-relaxed text-neutral-600">
           Whether you manage a handful of units or a growing portfolio, TenantFlo
-          helps reduce the cost of missed renter demand.
+          helps you respond faster—so renter demand does not quietly walk away.
         </p>
 
         <div className="mt-14 grid gap-6 md:grid-cols-3">

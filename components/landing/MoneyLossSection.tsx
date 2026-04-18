@@ -8,12 +8,16 @@ export function MoneyLossSection() {
     >
       <div className="mx-auto max-w-6xl px-4 sm:px-6 lg:px-8">
         <SectionLabel>Why it matters</SectionLabel>
-        <h2 className="mt-3 max-w-3xl text-3xl font-semibold tracking-tight text-neutral-950 sm:text-4xl">
+        <p className="mt-3 max-w-3xl text-xl font-semibold leading-snug tracking-tight text-neutral-950 sm:text-2xl">
+          You don&apos;t lose renters because of pricing. You lose them because
+          you&apos;re too late.
+        </p>
+        <h2 className="mt-6 max-w-3xl text-3xl font-semibold tracking-tight text-neutral-950 sm:text-4xl">
           One missed renter can cost more than your software bill.
         </h2>
-        <p className="mt-5 max-w-2xl text-lg leading-relaxed text-neutral-600">
-          A few extra vacancy days add up quickly. TenantFlo helps reduce the delay
-          between inquiry and response.
+        <p className="mt-5 max-w-2xl text-pretty text-lg leading-relaxed text-neutral-600">
+          A few extra vacancy days add up quickly. TenantFlo helps shrink the gap
+          between inquiry and response—across calls, messages, and forms.
         </p>
 
         <div className="mt-12 overflow-hidden rounded-2xl border border-neutral-200 bg-white shadow-[0_24px_60px_-16px_rgba(15,23,42,0.12)]">

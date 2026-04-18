@@ -3,17 +3,17 @@ import { Gauge, Puzzle, Zap } from "lucide-react";
 const items = [
   {
     title: "Works with your current workflow",
-    body: "Designed to support how leasing teams already communicate.",
+    body: "Plugs into how your team already answers the phone and inbox—no rip-and-replace.",
     icon: Puzzle,
   },
   {
     title: "Simple to understand",
-    body: "No bloated features. Just faster follow-up and better visibility.",
+    body: "One clear job: faster replies, cleaner threads, less leakage.",
     icon: Gauge,
   },
   {
     title: "Built for action",
-    body: "See what is being missed and what to do next.",
+    body: "Surfaces what is slipping and what to handle next—without another heavy system.",
     icon: Zap,
   },
 ];

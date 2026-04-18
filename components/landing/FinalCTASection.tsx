@@ -16,11 +16,12 @@ export function FinalCTASection() {
           />
           <div className="relative mx-auto max-w-3xl text-center">
             <h2 className="text-balance text-3xl font-semibold tracking-tight text-neutral-950 sm:text-4xl">
-              Stop losing renters to slow follow-up.
+              Every delayed reply costs you.
             </h2>
-            <p className="mt-5 text-lg leading-relaxed text-neutral-600">
+            <p className="mt-5 text-pretty text-lg leading-relaxed text-neutral-600">
               If a renter reaches out and nobody responds quickly, the opportunity
-              is already slipping away.
+              is already slipping away. TenantFlo helps you respond faster without
+              adding more operational chaos.
             </p>
             <div className="mt-10 flex w-full max-w-xl flex-col items-stretch gap-3 sm:mx-auto sm:max-w-2xl">
               <a
@@ -34,10 +35,6 @@ export function FinalCTASection() {
                 Join waitlist
               </JoinWaitlistTrigger>
             </div>
-            <p className="mt-8 text-sm text-neutral-500">
-              Built for property managers who want faster response times without
-              more operational chaos.
-            </p>
           </div>
         </div>
       </div>
